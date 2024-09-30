@@ -1,8 +1,8 @@
 ﻿namespace DBDockerIntegrationTests;
 
-public class PessoalDalSelectByIdTests : DBTestBase
+public class PessoaDalSelectByIdTests : DBTestBase
 {
-    public PessoalDalSelectByIdTests(DbFixture fixture) : base(fixture) { }
+    public PessoaDalSelectByIdTests(DbFixture fixture) : base(fixture) { }
 
     [Fact]
     public async Task RetornaObjetoComValorNoCampoNomeDoObjetoInserido()

@@ -1,6 +1,6 @@
 ﻿namespace DBDockerIntegrationTests;
 
-public class PessoalDalCreateTest(DbFixture _fixture) : DBTestBase(_fixture)
+public class PessoaDalCreateTest(DbFixture _fixture) : DBTestBase(_fixture)
 {
     [Fact]
     public async Task RetornaObjetoComIdMaiorQueZeroEComMesmoNomeDoObjetoPassado()
