@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDockerIntegrationTests", "tests\DBDockerIntegrationTests.csproj", "{728F4097-E82B-45D1-94A4-B8464C55D68C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "src\Dal\Dal.csproj", "{CB47788F-F873-4066-ADE7-73E814F2259A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728F4097-E82B-45D1-94A4-B8464C55D68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728F4097-E82B-45D1-94A4-B8464C55D68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728F4097-E82B-45D1-94A4-B8464C55D68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728F4097-E82B-45D1-94A4-B8464C55D68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB47788F-F873-4066-ADE7-73E814F2259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB47788F-F873-4066-ADE7-73E814F2259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB47788F-F873-4066-ADE7-73E814F2259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB47788F-F873-4066-ADE7-73E814F2259A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BEAAF99-ABBE-4254-AB29-D45C60634DC5}
+	EndGlobalSection
+EndGlobal
