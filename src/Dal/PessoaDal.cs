@@ -30,5 +30,24 @@ public class PessoaDal(string connectionString)
         return await connection.QueryFirstOrDefaultAsync<Pessoa>(query, new { id });
     }
 
+    public async Task<int> Count()
+    {
+        using var connection = new SqlConnection(_connectionString);
+
+        var query = @"
+                SELECT count(*) as total
+                FROM Pessoa";
+
+        return await connection.ExecuteScalarAsync<int>(query);
+    }
+
+    public async Task<bool> Truncate()
+    {
+        using var connection = new SqlConnection(_connectionString);
+        var query = @"truncate table Pessoa";
+        await connection.ExecuteAsync(query);
+        return true;
+    }
+
 
 }
